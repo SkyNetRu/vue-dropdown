@@ -56,7 +56,7 @@
             </div>
         </div>
         <div class="small-text-below" :class="{'invalid': status == 'invalid'}"
-             v-show="status == 'inactive' || status == 'invalid'">
+             v-show="showTextBelow">
             <span>{{ textBelow }}</span>
         </div>
     </div>
@@ -245,6 +245,9 @@
             },
             textBelow() {
                 return this.status == 'inactive' ? 'E.g. makeup artist, marketing agency, etc.' : 'Please, select a valid account category'
+            },
+            showTextBelow () {
+                return status == 'inactive' || status == 'invalid' && !this.selected.length;
             }
         },
         components: {},
