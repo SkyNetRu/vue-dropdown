@@ -193,8 +193,8 @@
                                     'Nick Perumov': {
                                         value: 'nickPerumov'
                                     },
-                                    'Strugatskie brothers': {
-                                        value: 'strugatskieBrothers'
+                                    'Strugatskie': {
+                                        value: 'strugatskie'
                                     },
                                     'Other': {
                                         value: 'other'
