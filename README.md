@@ -1,7 +1,7 @@
-#Testing task vue-dropdown 
+# Testing task vue-dropdown 
 
 
-###Task Description
+### Task Description
 ```
 Video walkthrough: https://www.youtube.com/watch?v=BjEPBfp9SdE
 
